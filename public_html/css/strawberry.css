@@ -1,0 +1,74 @@
+body {
+    background-color: #C8AF8B;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+    font-family: Serif;
+    font-size: 50px;
+    border-style: solid;
+    border-width: 10px;
+    border-color: #760023;
+    margin: 55px;
+    padding: 10px;   
+}
+
+h2 {
+    color: black;
+    text-align: center;
+    font-family: Serif;
+    font-size: 35px;
+    border-style: solid;
+    border-width: 10px;
+    border-color: #333D43;
+    margin: 30px;
+    padding: 10px;
+}
+
+/* --- Nav Bar --- */
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333D43;
+  font-family: arial,sans-serif;
+}
+
+nav li {
+  float: left;
+}
+
+nav li a {
+  display: block;
+  color: #CCCCCC;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color on hover */
+nav li a:hover {
+  /* This is a three digit code. Same as #111111 */
+  background-color: #760023;
+}
+
+#founding { 
+    color: black;
+    text-align: left;
+    font-family: Sans-Serif;
+    font-size: 18px;
+}
+
+#online {
+    color: black;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+.information {
+    font-family: sans-serif;
+    text-align: center;
+}
