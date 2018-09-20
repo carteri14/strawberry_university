@@ -8,8 +8,9 @@ h1 {
     font-family: Serif;
     font-size: 50px;
     border-style: solid;
-    border-width: 10px;
+    border-width: 15px;
     border-color: #760023;
+    border-radius: 5px;
     margin: 55px;
     padding: 10px;   
 }
@@ -20,12 +21,30 @@ h2 {
     font-family: Serif;
     font-size: 35px;
     border-style: solid;
-    border-width: 10px;
+    border-width: 15px;
     border-color: #333D43;
+    border-radius: 5px;
     margin: 30px;
     padding: 10px;
+    
 }
 
+p {
+    font-family: arial, sans-sarif;
+    font-size: 16px;
+}
+
+#admissions_staff {
+    font-family: arial, sans-sarif;
+    font-size: 16px;
+    text-align: center;
+}
+
+#ambassadors {
+    font-family: arial, sans-sarif;
+    font-size: 16px;
+    text-align: center;
+}
 /* --- Nav Bar --- */
 nav ul {
   list-style-type: none;
@@ -57,19 +76,19 @@ nav li a:hover {
 #founding { 
     color: black;
     text-align: left;
-    font-family: Sans-Serif;
+    font-family: arial, sans-sarif;
     font-size: 18px;
 }
 
 #online {
     color: black;
     text-align: center;
-    font-family: sans-serif;
+    font-family: arial, sans-serif;
     font-size: 20px;
 }
 
 .information {
-    font-family: sans-serif;
+    font-family:arial, sans-serif;
     text-align: center;
 }
 
