@@ -25,3 +25,37 @@ li a {
 li a:hover {
     background-color: #260101;
 }
+h1 {
+    background-color: #F24171;
+}
+body {
+    border: 2px solid red;
+    border-radius: 10px;
+    margin-right: 17.5px;
+    padding-top: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+}
+#mainparagraph {
+    background-color: #D95592;
+    width: 1100px;
+    border: 25px solid pink;
+    padding: 25px;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 2px solid gray;
+}
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+tr:nth-child(even) {
+    background-color: #FFC4EA
+}
+th {
+    background-color: #D95592;
+    color: white;
+}
