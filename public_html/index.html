@@ -1,31 +1,30 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="utf-8">
-<title>Strawberry University</title>
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.1.3/sandstone/bootstrap.min.css">
-<style>
-footer    {text-shadow: 1.5px 1.5px red;}
-.shadow {
-    text-shadow: 3px 2px white;
-}
-</style>
+    <meta charset="utf-8">
+    <title>Strawberry University</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.1.3/sandstone/bootstrap.min.css">
+    <style>
+        footer {text-shadow: 1.5px 1.5px red;}
+        .shadow {text-shadow: 3px 2px white;}
+    </style>
 </head>
 
 <body>
 
  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="btn btn-primary" href="index.html" role="button">Strawberry University</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+      <span class="navbar-toggler-icon"></span>
       </button>
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+            <p class="navbar-btn">
+                <a href="index.html" class="btn btn-danger">Home</a>
+            </p>
           </li>
 
           <li class="nav-item">
@@ -47,11 +46,20 @@ footer    {text-shadow: 1.5px 1.5px red;}
           <li class="nav-item">
             <a class="nav-link" href="athletics.html">Athletics</a>
           </li>
+          
+          <li>
+            <p class="navbar-btn">
+                <a href="sign_up.html" class="btn btn-secondary">Sign up for a visit.</a>
+            </p>
+          </li>
         </ul>
       </div>
     </nav>
 
 <div class="jumbotron">
+<div class="alert alert-success" role="alert">
+  <strong>Congrats!</strong> You are now on the page for one of the world's best universities. Enjoy!
+</div>
     <h1 class="shadow"> 
     Welcome to Strawberry University
     </h1>
