@@ -42,33 +42,33 @@ nav div ul li{
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
             <p class="navbar-btn">
-                <a href="index.html" class="btn btn-danger">Home</a>
+                <a href="index.php" class="btn btn-danger">Home</a>
             </p>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" href="about.html">About</a>
+            <a class="nav-link" href="about.php">About</a>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" href="admissions.html">Admissions</a>
+            <a class="nav-link" href="admissions.php">Admissions</a>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" href="academics.html">Academics</a>
+            <a class="nav-link" href="academics.php">Academics</a>
           </li>
           
           <li class="nav-item">
-            <a class="nav-link" href="student_life.html">Student Life</a>
+            <a class="nav-link" href="student_life.php">Student Life</a>
           </li>
           
           <li class="nav-item">
-            <a class="nav-link" href="athletics.html">Athletics</a>
+            <a class="nav-link" href="athletics.php">Athletics</a>
           </li>
           
           <li>
             <p class="navbar-btn">
-                <a href="sign_up.html" class="btn btn-secondary">Sign up for a visit.</a>
+                <a href="sign_up.php" class="btn btn-secondary">Sign up for a visit.</a>
             </p>
           </li>
         </ul>
